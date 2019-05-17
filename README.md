@@ -1,2 +1,1 @@
-# happilyeverafter
-template for client site
+#wedding site
