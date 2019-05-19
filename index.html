@@ -3,53 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Happily Ever After</title>
+  <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
 
 </head>
 
 <body>
- <!-- NAVIGATION -->
- <header>
-   <div class="menu">
-     <span class="bar"></span>
-   </div>
-   <nav>
-     <div class="nav-container">
-       <div class="logo" alt="logo"></div>
-     </div>
-     <ul>
-       <li><a href="#">Home</a></li>
-       <li><a href="#story">Our Story</a></li>
-       <li><a href="#details">Details</a></li>
-       <li><a href="#photos">Photos</a></li>
-       <li><a href="#contact">RSVP</a></li>
-       <li><a href="#map">Venue</a></li>
-     </ul>
-   </nav>
- </header>
+  <!-- NAVIGATION -->
 
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#story">Our Story</a>
+    <a href="#details">Photos</a>
+    <a href="#details">Details</a>
+  <div class="dropdown">
+    <button class="dropbtn">Registry
+      <i class="fas fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Amazon</a>
+      <a href="#">Target</a>
+      <a href="#">Nordstroms</a>
+      <a href="#">Saks 5th</a>
+    </div>
+  </div>
+  <a href="#contact">RSVP</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+  <!-- MAIN CONTENT -->
   <div class="pimg1">
-  <!-- <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="#story">Story</a></li>
-        <li><a href="#photos">Photos</a></li>
-        <li><a href="#details">Details</a></li>
-        <li><a href="#contact">RSVP</a></li>
-      </ul>
-    </nav> -->
-
-
     <div class="ptext">
       <span class="border">
         Marley & Adam
       </span><br />
       <p class="date">December 31, 2019</p>
-      <a href="#contact" class="btn main-btn">RSVP</a>
-
+      <!-- <a href="#contact" class="btn main-btn">RSVP</a> -->
     </div>
   </div>
 
@@ -132,7 +127,7 @@
   <!-- JQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <!-- JS -->
-  <script src="script.js" charset="utf-8"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

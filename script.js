@@ -1,26 +1,13 @@
 // NAV BAR
 
-var isActive = false;
-
-$('.menu').on('click', function(){
-  if(isActive){
-    $(this).removeClass('active');
-    $('body').removeClass('menu-open');
-  }else{
-    $(this).addClass('active');
-    $('body').addClass('menu-open')
+function myFunction() {
+  const x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
-  isActive = !isActive;
-})
-// $(document).ready(function(){
-//     $(window).on('scroll',function(){
-//         if($(window).scrollTop()){
-//             $(".sub-header").addClass('active');
-//         }else{
-//             $(".sub-header").removeClass('active');
-//         }
-//     });
-// });
+}
 
 //MODAL
 // const openBtn = document.getElementById('modalOpen');
